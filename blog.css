@@ -1,0 +1,32 @@
+main {font-family: 'Titillium Web', sans-serif;}
+
+/* img {width: 30%; margin: calc(10%/6); transition: box-shadow .2s, transform .2s, opacity .2s;} */
+
+img {width: 30%;  transition: box-shadow .2s, transform .2s, opacity .2s;}
+
+.photo {width: 90%; margin: 0 auto; display: flex; flex-direction: row; justify-content: space-evenly; flex-wrap: wrap; align-content: center; padding-bottom: .7em;}
+
+.photo img:hover {box-shadow: 0 0.5em 0.5em -0.1em black; transform: translateY(-0.35em); cursor: pointer;}
+/* img:hover {box-shadow: 0 0.5em 0.5em -0.1em black; transform: translateY(-0.35em); cursor: pointer;} */
+
+/* .img:active {
+    transform: opacity: .6; 
+    filter: grayscale(70%);
+} */
+
+.name {text-transform: uppercase; width: 30%; margin-left: calc(10%/6); padding: .5em 0; font-weight: bold; font-size: 2em;}
+/* .name {text-transform: uppercase; width: 30%; display: flex; flex-direction: row; justify-content: flex-start; padding: .5em 0; font-weight: bold; font-size: 2em;} */
+
+
+
+@media (max-width: 768px){
+    /* .name {
+        flex-direction: column;
+        align-items: center;
+    } */
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+    img {width: 70%;}
+}
