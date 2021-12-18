@@ -1,0 +1,24 @@
+{
+  "name": "photo-gallery",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jacobcory/photo-gallery.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jacobcory/photo-gallery/issues"
+  },
+  "homepage": "https://github.com/jacobcory/photo-gallery#readme",
+  "dependencies": {
+    "serve": "^13.0.2"
+  }
+}
